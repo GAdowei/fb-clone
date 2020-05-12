@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Facebook - log in or sign up</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="header-logo">
+                    <img src="images/fb-logo.jpg" alt="fb-logo" width="175" height="auto">
+                </div>
+                <div class="login-form-container">
+                    <form class="login-form">
+                        <label class="email-label" for="email"><p>Email or phone</p></label>
+                        <span class="email-input"><input type="email"></span>
+                        <label class="pwd-label" for="password"><p>Password</p></label>
+                        <span class="pwd-input"><input type="password"></span>
+                        <a class="login-btn" href="#">Log In</a>
+                        <a class="reset" href="#">Forgotten account?</a>
+                    </form>
+                </div>
+            </header>
+            <div class="main-container">
+                
+            <div class="main-wrapper">
+                <aside>
+                    <div class="cover-wrapper">
+                        <h2>Facebook helps you connect and share with the people in your life.</h2>
+                        <img src="images/fb-friends.png" alt="fb-friends">
+                    </div>
+                </aside>
+                <section>
+                    <div class="signup-form-wrapper">
+                        <form class="signup-form">
+                            <h1>Create an account</h1>
+                            <h2>It's quick and easy.</h2>
+                            <input class="first-name" type="text" placeholder="First name">
+                            <input class="surname" type="text" placeholder="Surname">
+                            <input class="email" type="text" placeholder="Mobile number or email address">
+                            <input class="pwd" type="text" placeholder="New password">
+                            <h3 class="birthday">Birthday</h3>
+                            <select id="date"></select>
+                            <select id="month"></select>
+                            <select id="year"></select>
+                            <h3 class="gender" id="gender-h3">Gender</h3>
+                            <div class="gender">
+                                <input type="radio" name="gender">
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender">
+                                <label for="custom">Custom</label>
+                            </div>
+                            <div class="disclaimer">
+                               <p> By clicking Sign Up, you agree to our <a href="#">Terms, </a> <a href="">Data Policy</a> and <a href=""> Cookie Policy.</a> You may receive SMS notifications from us and can opt out at any time.
+                                </p>
+                            </div>
+                            <a class="signup-btn">Sign Up</a>
+                            <p class="create-page"><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+                        </form>
+                    </div>
+                </section>
+            </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
